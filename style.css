@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#Btn {
+    margin-top: 20%;
+    border-color: white;
+    background-color: cornflowerblue;
+    color: white;
+    height: 50px;
+    border-radius: 2%;
+    font-size: larger;
+    font-weight: bolder;
+}
