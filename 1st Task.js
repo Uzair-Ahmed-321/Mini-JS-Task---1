@@ -6,6 +6,17 @@ function changeColor() {
     console.log(colorName);
     document.body.style.backgroundColor = colorName;
 }
-let Btn = document.getElementById("Btn");
-Btn.addEventListener("click", changeColor);
-console.log(Btn);
+let btn = document.getElementById("btn");
+btn.addEventListener("click", RGB);
+console.log(btn);
+
+
+
+function RGB() {
+    let red = Math.round(Math.random() * 99);
+    let green = Math.round(Math.random() * 99);
+    let blue = Math.round(Math.random() * 99);
+    let colorRGB = `rgb(${red},${green},${blue})`;
+    console.log(colorRGB)
+    document.body.style.backgroundColor = colorRGB;
+}

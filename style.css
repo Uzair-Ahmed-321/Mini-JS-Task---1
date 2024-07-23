@@ -4,10 +4,12 @@ body {
     align-self: center;
 }
 
-#Btn {
+#btn {
     margin-top: 20%;
     border-color: white;
     background-color: cornflowerblue;
+    color: rgb(rgb(163, 22, 22), green, blue);
+    color: #001122;
     color: white;
     height: 50px;
     border-radius: 2%;
